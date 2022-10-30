@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the difference between errors and exceptions?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Errors are the ones which you can handle, and exceptions are those which you cannot handle",
+        "b": "Exceptions are the ones which you can handle and errors are the ones which you cannot handle",
+        "c": "Errors can be handled using try, except and finally bock and exceptions cannot be handled",
+        "d": "An error is a object with description of what went wrong and exception does not give you any description"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Errors are the ones which cannot be handled by us, but exceptions can be handled using using try except block  <a href='www.google.com'>here</a>",
+        "b": "Exceptions are the ones which you can handle and errors are the ones which you cannot handle",
+        "c": "Exceptions can be handled using try, except & finally block but errors cannot be handled",
+        "d": "An Exception is a object with description of what went wrong and error does not gives you any description"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "which of the scenario given below holds false for execution of the finally block?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Finally block will get executed only when there are no errors is your program",
+        "b": "Finally block gets executed when there are errors in your program",
+        "c": "Finally block gets executed when there are exceptions in your program",
+        "d": "Finally block will always get executed irrespective of errors and exceptions encountered in a program"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "False:Finally block gets executed even when there is an error in your program <a href='www.google.com'>here</a>",
+        "b": "True:Finally block gets executed when there are errors in your program",
+        "c": "True:Finally block gets executed when there are exceptions in your program",
+        "d": "True:Finally block will always get executed irrespective of errors and exceptions encountered in a program"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
